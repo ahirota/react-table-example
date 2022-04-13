@@ -1,0 +1,74 @@
+.inventory {
+    height: calc(100vh - 90px);
+    width: 95%;
+    margin: 0 auto 20px;
+}
+
+.inventory-title {
+    font-size: 50px;
+    margin-bottom: 15px; 
+}
+
+.locations-headings {
+    position: fixed; 
+    width: 95%;
+}
+
+.heading {
+    display: flex;
+}
+
+.locations-heading-1 {
+    height: 40px; 
+    border-top: 1px solid black; 
+    box-sizing: border-box;
+    padding: 4px;
+    width: 16.5%;
+    font-weight: bold;
+    background-color: #d4ebf2;
+}
+
+.locations-heading {
+    height: 80px; 
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black; 
+    box-sizing: border-box;
+    padding: 4px;
+    width: 16.5%;
+    font-weight: bold;
+    background-color: #d4ebf2;
+}
+
+.store-id {
+    font-size: 12px;
+    margin-bottom: 5px; 
+}
+
+.product-list {
+    margin-top: 135px;
+}
+
+.product-list-item {
+    display: flex; 
+}
+
+.product-list-item > * {
+    width: 16.5%;
+    height: 20%; 
+    border-top: 1px solid black; 
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.product-name {
+    border-right: 1px solid black;
+}
+
+.product-id {
+    font-size: 12px;
+    margin-top: 5px; 
+}
+
+.stock-quant {
+    font-size: 12px;
+}

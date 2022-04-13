@@ -1,0 +1,50 @@
+body {
+    height: 100%; 
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inventory-header {
+    width: 100%;
+    background-color: #3b3bc4;
+    height: 50px;
+    margin-bottom: 20px;
+    color: white;
+    z-index: 103; 
+}
+
+.inventory-header-content {
+    width: 95%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inventory-header-content > h1 {
+    font-size: 30px;
+}
+
+.logged-in-header {
+    display: flex;
+    align-items: center;
+}
+
+.current-user {
+    margin-right: 30px; 
+    font-size: 15px;
+}
+
+.logout > button {
+    cursor: pointer;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 7px 10px;
+    font-weight: bold;
+}
+
+.logout > button:hover {
+    background-color: white;
+    color: #3b3bc4;
+}
