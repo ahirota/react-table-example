@@ -1,4 +1,6 @@
-# React Table Application for Interfacing with Complex API
+# [React Table Application for Interfacing with Complex API](https://react-table-example.web.app/#/)
+
+See the demo: https://react-table-example.web.app/#/
 
 Originally interfaced with Smaregi API, a Japanese POS system. Multi-store, multi-category system did not have a way to display inventory across all shops and categories easily. This table was designed to aggregated that data and present it cleanly. 
 
